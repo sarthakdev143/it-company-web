@@ -54,7 +54,7 @@
         justify-content: space-between;
 
         h1 span {
-            color: #00C6CF;
+            color: var(--web-theme-color);
         }
 
         button {
@@ -64,7 +64,7 @@
             border: none;
             cursor: pointer;
             font-weight: bolder;
-            background: #00C6CF;
+            background: var(--web-theme-color);
             color: #fff;
             font-size: 1.3rem;
             text-transform: uppercase;
@@ -90,8 +90,8 @@
     }
 
     100% {
-        color: #00C6CF;
+        color: var(--web-theme-color);
         background: #fff;
-        border: 0.1rem solid #00C6CF;
+        border: 0.1rem solid var(--web-theme-color);
     }
 }

@@ -3,11 +3,14 @@ import LandingContent from './SubComponents/LandingContent/LandingContent';
 import CardsSection from './SubComponents/CardsSection/CardsSection';
 import Reviews from './SubComponents/Reviews/Reviews';
 import Footer from '../Footer/Footer';
+import SideMenu from '../Navbar/SideMenu';
+import BusinessOpportunities from './SubComponents/BusinessOpportunities/BusinessOpportunities.js'
 import './Home.css'
 
 const Home = () => {
     return (
         <>
+            <SideMenu />
             <main>
                 <img id='background' src='' alt='Background Image Not Found' />
                 <div id='content' className='fdc faic'>

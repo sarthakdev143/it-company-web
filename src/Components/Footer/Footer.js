@@ -1,6 +1,5 @@
 import React from 'react'
 import './Footer.css'
-import { NavLink } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -31,7 +30,7 @@ const Footer = () => {
         <div id='get-in-touch' className='fdc m-gap'>
           <h1>Get in Touch...</h1>
           <ul type='none' className='flex m-gap'>
-            <a href='#'>
+            <a href='mailto:info@skyratech.in'>
               <li className='faic'>
                 <i id='mail' class="ri-mail-line"></i>
                 <span>Email Us</span>

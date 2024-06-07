@@ -11,7 +11,7 @@ const LandingContent = () => (
                 <p></p>
             </aside>
             <figure>
-                <img style={{ transform: "scaleX(-1)" }} src={`${process.env.PUBLIC_URL}/imgs/man.png`} alt='Image of A Man Doing Coding' />
+                {/* <img style={{ transform: "scaleX(-1)" }} src={`${process.env.PUBLIC_URL}/imgs/man.png`} alt='Image of A Man Doing Coding' /> */}
             </figure>
         </div>
         <div id='part-2' className='faic'>

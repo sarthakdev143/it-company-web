@@ -16,14 +16,13 @@ body {
 header {
     width: 100%;
     height: 4rem;
-    background: #00C6CF;
+    background: var(--web-theme-color);
     position: relative;
     z-index: 10001;
 
     #top-navbar-wrapper {
         width: 92%;
         height: 100%;
-        /* background: red; */
         justify-content: space-between;
         color: #eee;
         font-weight: bold;
@@ -60,7 +59,7 @@ header {
             }
 
             #get-free-esti {
-                color: #00C6CF;
+                color: var(--web-theme-color);
                 background: #eee;
                 padding: 0.7rem 1.5rem;
                 border-radius: 10rem;
@@ -76,7 +75,7 @@ header {
                     content: 'Get Free Estimation';
                     position: absolute;
                     border: 0.1rem solid #eee;
-                    background: #00C6CF;
+                    background: var(--web-theme-color);
                     bottom: -5rem;
                     left: -10%;
                     color: #eee;

@@ -15,7 +15,7 @@
             white-space: nowrap;
 
             span {
-                color: #F6BB06;
+            color: #F6BB06;
                 font-size: 2.8rem;
             }
         }
@@ -81,7 +81,7 @@
                     }
 
                     span {
-                        color: grey;
+                        color: grey; 
                     }
                 }
 

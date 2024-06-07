@@ -22,7 +22,7 @@ main {
             border: none;
             cursor: pointer;
             font-weight: bolder;
-            background: #00C6CF;
+            background: var(--web-theme-color);
             color: #fff;
             font-size: 1.3rem;
             text-transform: uppercase;

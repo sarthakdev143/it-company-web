@@ -27,14 +27,14 @@
 
                 span {
                     font-size: 2rem;
-                    color: #00C6CF;
+                    color: var(--web-theme-color);
                     font-weight: bolder;
 
                     &::after {
                         content: '';
                         width: 5rem;
                         height: 0.3rem;
-                        background: #00C6CF;
+                        background: var(--web-theme-color);
                         position: absolute;
                         left: 22%;
                         top: 50%;
