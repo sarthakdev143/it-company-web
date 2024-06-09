@@ -1,13 +1,12 @@
-import React from 'react'
-import './SideMenu.css'
+import React from 'react';
+import './SideMenu.css';
 
-const SideMenu = () => {
-
+const SideMenu = ({ isActive, closeMenu }) => {
     return (
-        <div id='side-menu-wrapper'>
-            <section id='side-menu' className=''>
+        <div id='side-menu-wrapper' className={isActive ? 'active' : ''}>
+            <section id='side-menu' className={isActive ? 'active' : ''}>
                 <figure>
-                    <img src='' alt='404! Logo Not Found!' />
+                    <img src={require('./Skyra_Tech_logo.png')} alt='404! Logo Not Found!' />
                     <article>
                         Skyra Tech Solutions Pvt Ltd is a premier IT solutions provider, specializing in cutting-edge services like open source development, mobile app creation, and advanced technologies such as blockchain and IoT.
                     </article>
@@ -34,9 +33,9 @@ const SideMenu = () => {
                     <li className='pointer'><i className="ri-youtube-fill"></i></li>
                 </ul>
             </section>
-            <div id='back-screen' className='' title='Click Anywhere To Close Sidebar'></div>
+            <div id='back-screen' className={isActive ? 'active' : ''} title='Click Anywhere To Close Sidebar' onClick={closeMenu}></div>
         </div>
-    )
+    );
 }
 
-export default SideMenu
+export default SideMenu;

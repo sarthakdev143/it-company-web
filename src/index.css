@@ -25,5 +25,6 @@ code {
 }
 
 :root {
-  --web-theme-color: #00C6CF;
+  --web-theme-color: #e78001;
+  --footer-color: #cf7200;
 }

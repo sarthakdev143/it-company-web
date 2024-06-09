@@ -8,7 +8,7 @@ const Footer = () => {
         <div id='article-con'>
           <article id='about' className='fdc m-gap relative'>
             <figure>
-              <img id='logo' src={`${process.env.PUBLIC_URL}/imgs/logo.webp`} alt='Logo' />
+              <img id='logo' src={require('./Skyra_Tech_logo.png')} alt='Logo' />
             </figure>
             <p>
               Skyra Tech Solutions Pvt Ltd is a premier IT solutions provider, specializing in cutting-edge services like open source development, mobile app creation, and advanced technologies such as blockchain and IoT. Their seasoned professionals deliver high-quality, scalable solutions tailored to diverse client needs. With a focus on detail, rigorous quality assurance, and a dedication to customer satisfaction, Skyra ensures excellence in every project. Collaborate with them for innovative IT solutions that transform ideas into reality.
@@ -48,7 +48,7 @@ const Footer = () => {
                 <span>Facebook</span>
               </li>
             </a>
-            <a href='#'>
+            <a href='https://www.linkedin.com/company/skyratech-solutions2023/?viewAsMember=true'>
               <li className='faic'>
                 <i id='linkedin' class="ri-linkedin-line"></i>
                 <span>LinkedIn</span>

@@ -36,17 +36,17 @@ body {
                 width: 23%;
                 height: 100%;
                 border-right: 0.1rem solid #dcdcdc;
-                padding-right: 2rem;
-                justify-content: right;
+                display: flex;
+                justify-content: flex-end;
+                position: relative;
                 /* background: red; */
 
                 figure {
-                    position: relative;
-                    
+                    width: 45rem;
+
                     img {
-                        margin-right: -7rem;
-                        margin-top: 1.5rem;
-                        /* scale: 0.7; */
+                        /* background: green; */
+                        scale: 0.3;
                     }
                 }
             }

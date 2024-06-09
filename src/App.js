@@ -7,7 +7,7 @@ import Policy from './Components/Policy/Policy';
 
 // Import the components for the main routes
 import WebDevelopment from './Components/Services/WebDevelopment';
-// import MobileAppDevelopment from './Components/Services/MobileAppDevelopment';
+import MobileAppDevelopment from './Components/Services/MobileAppDevelopment';
 // import EcommerceDevelopment from './Components/Services/EcommerceDevelopment';
 // import SoftwareDevelopment from './Components/Services/SoftwareDevelopment';
 // import WireframingPrototyping from './Components/Services/WireframingPrototyping';
@@ -45,8 +45,8 @@ const App = () => {
 
             {/* Services routes */}
             <Route path="/web-development" element={<WebDevelopment />} />
-            {/* <Route path="/mobile-app-development" element={<MobileAppDevelopment />} />
-            <Route path="/ecommerce-development" element={<EcommerceDevelopment />} />
+            <Route path="/mobile-app-development" element={<MobileAppDevelopment />} />
+            {/* <Route path="/ecommerce-development" element={<EcommerceDevelopment />} />
             <Route path="/software-development" element={<SoftwareDevelopment />} />
             <Route path="/wireframing-&-prototyping" element={<WireframingPrototyping />} /> */}
 

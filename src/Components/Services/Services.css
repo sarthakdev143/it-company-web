@@ -62,4 +62,38 @@
       }
     }
   }
+
+  .service-technologies {
+    .card-wrapper {
+      /* background: green; */
+      padding: 2rem;
+      display: flex !important;
+      justify-content: center;
+      align-items: center;
+
+      .tech-card {
+        width: 25rem;
+        height: 25rem;
+        border-radius: 50%;
+        /* background: red; */
+        background:#eee;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        overflow: hidden;
+        transition: all ease 0.2s;
+        
+        img {
+          width: 12rem;
+        }
+
+        &:hover {
+          transform: scale(1.05);
+          filter: brightness(1.04);
+        }
+      }
+    }
+  }
 }

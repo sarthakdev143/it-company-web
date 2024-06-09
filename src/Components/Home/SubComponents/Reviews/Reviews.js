@@ -1,8 +1,8 @@
 import React, { useState, useRef } from 'react';
 import Slider from 'react-slick';
-import './Reviews.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import './Reviews.css';
 
 const Reviews = () => {
     const [expanded, setExpanded] = useState({});
@@ -50,7 +50,6 @@ const Reviews = () => {
             text: 'The UI/UX design team took our project to the next level. They created a user-centered design that not only looks beautiful but also enhances the overall user experience. Their attention to detail and understanding of our target audience were evident throughout the project. The feedback from our users has been overwhelmingly positive.'
         }
     ];
-    
 
     const settings = {
         dots: true,
