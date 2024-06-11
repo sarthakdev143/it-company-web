@@ -8,9 +8,9 @@ import Policy from './Components/Policy/Policy';
 // Import the components for the main routes
 import WebDevelopment from './Components/Services/WebDevelopment';
 import MobileAppDevelopment from './Components/Services/MobileAppDevelopment';
-// import EcommerceDevelopment from './Components/Services/EcommerceDevelopment';
-// import SoftwareDevelopment from './Components/Services/SoftwareDevelopment';
-// import WireframingPrototyping from './Components/Services/WireframingPrototyping';
+import ECommerceDevelopment from './Components/Services/ECommerceDevelopment';
+import SoftwareDevelopment from './Components/Services/SoftwareDevelopment.js';
+import WireframingPrototyping from './Components/Services/WireframingPrototyping';
 
 // import Healthcare from './Components/Verticals/Healthcare';
 // import Consumer from './Components/Verticals/Consumer';
@@ -46,9 +46,9 @@ const App = () => {
             {/* Services routes */}
             <Route path="/web-development" element={<WebDevelopment />} />
             <Route path="/mobile-app-development" element={<MobileAppDevelopment />} />
-            {/* <Route path="/ecommerce-development" element={<EcommerceDevelopment />} />
+            <Route path="/ecommerce-development" element={<ECommerceDevelopment />} />
             <Route path="/software-development" element={<SoftwareDevelopment />} />
-            <Route path="/wireframing-&-prototyping" element={<WireframingPrototyping />} /> */}
+            <Route path="/wireframing-&-prototyping" element={<WireframingPrototyping />} />
 
             {/* Verticals routes */}
             {/* <Route path="/healthcare" element={<Healthcare />} />

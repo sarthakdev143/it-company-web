@@ -1,20 +1,11 @@
-import React, { useRef } from 'react';
+import React, { useRef } from 'react'
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './Services.css';
-import Footer from '../Footer/Footer';
+import Footer from '../Footer/Footer'
 
-import pythonIcon from './images-webdev/python_icon.svg';
-import reactIcon from './images-webdev/reactjs.svg';
-import phpIcon from './images-webdev/php_icon.svg';
-import nodejsIcon from './images-webdev/nodejs.svg';
-import laravelIcon from './images-webdev/laravel.svg';
-import dotnetIcon from './images-webdev/microsoft-dotnet.svg';
-import angularIcon from './images-webdev/angularjs.svg';
-import javaIcon from './images-webdev/java_icon.svg';
-
-const WebDevelopment = () => {
+const WireframingPrototyping = () => {
     const sliderRef = useRef();
 
     const next = () => {
@@ -55,43 +46,43 @@ const WebDevelopment = () => {
 
     const technologies = [
         {
-            src: pythonIcon,
-            name: 'PYTHON',
+            src: '',
+            name: '',
             description: '',
         },
         {
-            src: reactIcon,
-            name: 'REACT.JS',
+            src: '',
+            name: '',
             description: '',
         },
         {
-            src: phpIcon,
-            name: 'PHP',
+            src: '',
+            name: '',
             description: '',
         },
         {
-            src: nodejsIcon,
-            name: 'NODE.JS',
+            src: '',
+            name: '',
             description: '',
         },
         {
-            src: laravelIcon,
-            name: 'LARAVEL',
+            src: '',
+            name: '',
             description: '',
         },
         {
-            src: dotnetIcon,
-            name: '.NET',
+            src: '',
+            name: '',
             description: '',
         },
         {
-            src: angularIcon,
-            name: 'ANGULAR.JS',
+            src: '',
+            name: '',
             description: '',
         },
         {
-            src: javaIcon,
-            name: 'JAVA',
+            src: '',
+            name: '',
             description: '',
         },
     ];
@@ -102,35 +93,19 @@ const WebDevelopment = () => {
                 <div className="service-header">
                     <h1>Skyra Tech Solutions Pvt Ltd.</h1>
                     <p>
-                        At Skyra Tech Solutions Pvt Ltd, we specialize in creating stunning, responsive, and
-                        user-friendly websites that not only look great but also perform exceptionally well. Our web
-                        development services are designed to meet the unique needs of each client, ensuring that your online
-                        presence is both powerful and effective.
+                        Our wireframing and prototyping services are designed to help you visualize and refine your
+                        project before development begins. We create detailed wireframes and interactive prototypes that
+                        provide a clear understanding of the user experience and functionality.
                     </p>
                 </div>
-
                 <article className="service-article">
                     <h2>Services Offered</h2>
                     <ul>
-                        <li>
-                            <strong>Custom Website Design:</strong> Tailored designs that reflect your brand identity and meet your
-                            business goals.
-                        </li>
-                        <li>
-                            <strong>Responsive Web Development:</strong> Websites that work seamlessly across all devices and screen
-                            sizes.
-                        </li>
-                        <li>
-                            <strong>Content Management Systems (CMS):</strong> Easy-to-use CMS solutions like WordPress, Joomla, and
-                            Drupal.
-                        </li>
-                        <li>
-                            <strong>E-commerce Solutions:</strong> Robust e-commerce platforms with secure payment gateways and
-                            shopping cart integration.
-                        </li>
-                        <li>
-                            <strong>SEO Optimization:</strong> On-page SEO practices to improve your website’s visibility in search engines.
-                        </li>
+                        <li><strong>Wireframing:</strong> Creating detailed wireframes to outline the structure and layout of your application.</li>
+                        <li><strong>Prototyping:</strong> Developing interactive prototypes to simulate the user experience.</li>
+                        <li><strong>UI/UX Design:</strong> Designing intuitive and engaging user interfaces.</li>
+                        <li><strong>User Testing:</strong> Conducting user testing to gather feedback and make necessary improvements.</li>
+                        <li><strong>Iteration and Refinement:</strong> Continuous refinement of wireframes and prototypes based on feedback.</li>
                     </ul>
                 </article>
 
@@ -154,4 +129,4 @@ const WebDevelopment = () => {
     );
 }
 
-export default WebDevelopment;
+export default WireframingPrototyping

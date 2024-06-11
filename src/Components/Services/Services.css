@@ -8,7 +8,7 @@
   gap: 4rem;
 
   /* Header styling */
-  .web-dev-header {
+  .service-header {
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -64,8 +64,39 @@
   }
 
   .service-technologies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h2 {
+      text-align: left;
+      width: 100%;
+    }
+
+    .slick-slider {
+      width: 90%;
+      cursor: grab;
+
+      &:active {
+        cursor: grabbing;
+      }
+    }
+
+    .slick-arrow {
+      transition: all ease 0.15s;
+      transform: translateY(-2rem);
+      
+      &:hover {
+        scale: 1.05;
+      }
+      
+      &::before {
+        color: #000;
+        font-size: 2.5rem;
+      }
+    }
+
     .card-wrapper {
-      /* background: green; */
       padding: 2rem;
       display: flex !important;
       justify-content: center;
@@ -76,7 +107,7 @@
         height: 25rem;
         border-radius: 50%;
         /* background: red; */
-        background:#eee;
+        background: #eee;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -84,7 +115,7 @@
         gap: 1rem;
         overflow: hidden;
         transition: all ease 0.2s;
-        
+
         img {
           width: 12rem;
         }
