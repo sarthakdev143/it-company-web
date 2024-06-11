@@ -1,14 +1,15 @@
-.service-section {
+.section {
   padding: 5rem;
   font-family: 'Arial, sans-serif';
   background: #f9f9f9;
   color: #333;
+  padding-bottom: 8rem;
   display: flex;
   flex-direction: column;
   gap: 4rem;
 
   /* Header styling */
-  .service-header {
+  .header {
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -25,7 +26,7 @@
   }
 
   /* Article styling */
-  .service-article {
+  .article {
     padding: 2rem;
     background: #fff;
     border-radius: 0.5rem;
@@ -63,7 +64,7 @@
     }
   }
 
-  .service-technologies {
+  .technologies {
     display: flex;
     flex-direction: column;
     align-items: center;

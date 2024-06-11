@@ -2,7 +2,7 @@ import React, { useRef } from 'react'
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import './Services.css';
+import '../Navlinks.css';
 import Footer from '../Footer/Footer'
 
 const SoftwareDevelopment = () => {
@@ -89,8 +89,8 @@ const SoftwareDevelopment = () => {
 
     return (
         <>
-            <section className="service-section">
-                <div className="service-header">
+            <section className="section">
+                <div className="header">
                     <h1>Skyra Tech Solutions Pvt Ltd.</h1>
                     <p>
                         We offer comprehensive software development services tailored to meet the unique needs of each
@@ -98,7 +98,7 @@ const SoftwareDevelopment = () => {
                         growth.
                     </p>
                 </div>
-                <article className="service-article">
+                <article className="article">
                     <h2>Services Offered</h2>
                     <ul>
                         <li><strong>Custom Software Development:</strong> Development of bespoke software solutions to address specific business needs.</li>
@@ -109,7 +109,7 @@ const SoftwareDevelopment = () => {
                     </ul>
                 </article>
 
-                <article className="service-article service-technologies">
+                <article className="article technologies">
                     <h2>Technologies Used</h2>
                     <Slider ref={sliderRef} {...settings}>
                         {technologies.map((item, index) => (

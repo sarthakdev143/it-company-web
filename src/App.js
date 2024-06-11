@@ -24,12 +24,12 @@ import WireframingPrototyping from './Components/Services/WireframingPrototyping
 // import Ecommerce from './Components/Verticals/Ecommerce';
 // import Manufacturing from './Components/Verticals/Manufacturing';
 
-// import OpenSource from './Components/Technologies/OpenSource';
-// import Enterprise from './Components/Technologies/Enterprise';
-// import RubyOnRails from './Components/Technologies/RubyOnRails';
-// import IoT from './Components/Technologies/IoT';
-// import Blockchain from './Components/Technologies/Blockchain';
-// import CloudComputing from './Components/Technologies/CloudComputing';
+import OpenSource from './Components/Technologies/OpenSource';
+import Enterprise from './Components/Technologies/Enterprise';
+import RubyOnRails from './Components/Technologies/RubyOnRails';
+import IoT from './Components/Technologies/IoT';
+import Blockchain from './Components/Technologies/Blockchain';
+import CloudComputing from './Components/Technologies/CloudComputing';
 
 // import Career from './Components/Career/Career';
 // import ContactUs from './Components/ContactUs/ContactUs';
@@ -64,12 +64,12 @@ const App = () => {
             <Route path="/manufacturing" element={<Manufacturing />} /> */}
 
             {/* Technologies routes */}
-            {/* <Route path="/open-source" element={<OpenSource />} />
+            <Route path="/open-source" element={<OpenSource />} />
             <Route path="/enterprise" element={<Enterprise />} />
             <Route path="/ruby-on-rails" element={<RubyOnRails />} />
             <Route path="/iot" element={<IoT />} />
             <Route path="/blockchain" element={<Blockchain />} />
-            <Route path="/cloud-computing" element={<CloudComputing />} /> */}
+            <Route path="/cloud-computing" element={<CloudComputing />} />
 
             {/* Other routes */}
             {/* <Route path="/career" element={<Career />} />

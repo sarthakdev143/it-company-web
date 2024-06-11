@@ -158,12 +158,12 @@ const Navbar = () => {
                                             </NavLink>
                                         </li>
                                         <li className='faic'>
-                                            <NavLink to='wireframing-&-prototyping'>
+                                            <NavLink to='/blockchain'>
                                                 Blockchain
                                             </NavLink>
                                         </li>
                                         <li className='faic'>
-                                            <NavLink to='wireframing-&-prototyping'>
+                                            <NavLink to='cloud-computing'>
                                                 Cloud Computing
                                             </NavLink>
                                         </li>

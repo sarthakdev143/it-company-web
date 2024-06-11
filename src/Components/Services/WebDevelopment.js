@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import './Services.css';
+import '../Navlinks.css';
 import Footer from '../Footer/Footer';
 
 import pythonIcon from './images-webdev/python_icon.svg';
@@ -98,8 +98,8 @@ const WebDevelopment = () => {
 
     return (
         <>
-            <section className="service-section">
-                <div className="service-header">
+            <section className="section">
+                <div className="header">
                     <h1>Skyra Tech Solutions Pvt Ltd.</h1>
                     <p>
                         At Skyra Tech Solutions Pvt Ltd, we specialize in creating stunning, responsive, and
@@ -109,7 +109,7 @@ const WebDevelopment = () => {
                     </p>
                 </div>
 
-                <article className="service-article">
+                <article className="article">
                     <h2>Services Offered</h2>
                     <ul>
                         <li>
@@ -134,7 +134,7 @@ const WebDevelopment = () => {
                     </ul>
                 </article>
 
-                <article className="service-article service-technologies">
+                <article className="article technologies">
                     <h2>Technologies Used</h2>
                     <Slider ref={sliderRef} {...settings}>
                         {technologies.map((item, index) => (

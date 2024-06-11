@@ -2,7 +2,7 @@ import React, { useRef } from 'react'
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import './Services.css';
+import '../Navlinks.css';
 import Footer from '../Footer/Footer'
 
 const WireframingPrototyping = () => {
@@ -89,8 +89,8 @@ const WireframingPrototyping = () => {
 
     return (
         <>
-            <section className="service-section">
-                <div className="service-header">
+            <section className="section">
+                <div className="header">
                     <h1>Skyra Tech Solutions Pvt Ltd.</h1>
                     <p>
                         Our wireframing and prototyping services are designed to help you visualize and refine your
@@ -98,7 +98,7 @@ const WireframingPrototyping = () => {
                         provide a clear understanding of the user experience and functionality.
                     </p>
                 </div>
-                <article className="service-article">
+                <article className="article">
                     <h2>Services Offered</h2>
                     <ul>
                         <li><strong>Wireframing:</strong> Creating detailed wireframes to outline the structure and layout of your application.</li>
@@ -109,7 +109,7 @@ const WireframingPrototyping = () => {
                     </ul>
                 </article>
 
-                <article className="service-article service-technologies">
+                <article className="article technologies">
                     <h2>Technologies Used</h2>
                     <Slider ref={sliderRef} {...settings}>
                         {technologies.map((item, index) => (

@@ -2,7 +2,7 @@ import React, { useRef } from 'react'
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import './Services.css';
+import '../Navlinks.css';
 import Footer from '../Footer/Footer'
 
 const MobileDevelopment = () => {
@@ -89,8 +89,8 @@ const MobileDevelopment = () => {
 
   return (
     <>
-      <section className="service-section">
-        <div className="service-header">
+      <section className="section">
+        <div className="header">
           <h1>Skyra Tech Solutions Pvt Ltd.</h1>
           <p>
             Our mobile app development services are designed to create innovative and user-friendly
@@ -99,7 +99,7 @@ const MobileDevelopment = () => {
           </p>
         </div>
 
-        <article className="service-article">
+        <article className="article">
           <h2>Services Offered</h2>
           <ul>
             <li><strong>iOS App Development:</strong> Custom app development for iPhone and iPad using Swift and Objective-C.</li>
@@ -110,7 +110,7 @@ const MobileDevelopment = () => {
           </ul>
         </article>
 
-        <article className="service-article service-technologies">
+        <article className="article technologies">
           <h2>Technologies Used</h2>
           <Slider ref={sliderRef} {...settings}>
             {technologies.map((item, index) => (
