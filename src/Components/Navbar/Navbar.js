@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import SideMenu from './SideMenu'
 import '../littles.css';
 import './Navbar.css';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 const Navbar = () => {
     const [isSideMenuActive, setIsSideMenuActive] = useState(false);
 
@@ -179,6 +179,9 @@ const Navbar = () => {
                                         Contact us
                                     </NavLink>
                                 </li>
+                            </ul>
+                            <ul type='none' className='faic s-gap'>
+                                <li id='get-free-esti'>Get Free Estimation</li>
                             </ul>
                         </section>
                         <section className='faic m-gap'>

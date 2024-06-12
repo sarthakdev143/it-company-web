@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 const NoPage = () => {
     return (
         <>
-            <main>
+            <main className='no-page-main'>
                 <div id='no-page-content'>
                     <h1>Well this is awkward…</h1>
                     <h3>The page you’re looking for doesn’t exist.</h3>

@@ -31,7 +31,7 @@ import IoT from './Components/Technologies/IoT';
 import Blockchain from './Components/Technologies/Blockchain';
 import CloudComputing from './Components/Technologies/CloudComputing';
 
-// import Career from './Components/Career/Career';
+import Career from './Components/Career/Career';
 // import ContactUs from './Components/ContactUs/ContactUs';
 
 const App = () => {
@@ -72,8 +72,8 @@ const App = () => {
             <Route path="/cloud-computing" element={<CloudComputing />} />
 
             {/* Other routes */}
-            {/* <Route path="/career" element={<Career />} />
-            <Route path="/contact-us" element={<ContactUs />} /> */}
+            <Route path="/career" element={<Career />} />
+            {/* <Route path="/contact-us" element={<ContactUs />} /> */}
 
             <Route path="*" element={<NoPage />} />
           </Route>
