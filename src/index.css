@@ -14,6 +14,10 @@ body {
   overflow-x: hidden !important;
 }
 
+* ::selection {
+  background: var(--web-theme-color);
+}
+
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

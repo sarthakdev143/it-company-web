@@ -75,7 +75,8 @@
     }
 
     .slick-slider {
-      width: 90%;
+      width: 95%;
+      padding: 0 1rem;
       cursor: grab;
 
       &:active {
@@ -85,12 +86,12 @@
 
     .slick-arrow {
       transition: all ease 0.15s;
-      transform: translateY(-2rem);
-      
+      transform: translate(0, -2rem);
+
       &:hover {
         scale: 1.05;
       }
-      
+
       &::before {
         color: #000;
         font-size: 2.5rem;
@@ -104,8 +105,8 @@
       align-items: center;
 
       .tech-card {
-        width: 25rem;
-        height: 25rem;
+        min-width: 22rem;
+        height: 22rem;
         border-radius: 50%;
         /* background: red; */
         background: #eee;
@@ -118,7 +119,7 @@
         transition: all ease 0.2s;
 
         img {
-          width: 12rem;
+          width: 10rem;
         }
 
         &:hover {

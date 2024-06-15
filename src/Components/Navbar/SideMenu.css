@@ -11,8 +11,8 @@
     flex-direction: column;
     background: #fff;
     transition: all ease 0.5s;
-    margin-right: -33.5rem;
     box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.5);
+    margin-right: -100%;
 
     &.active {
         margin-right: 0 !important;
@@ -113,5 +113,131 @@
     &.active {
         opacity: 1 !important;
         z-index: 99999 !important;
+    }
+}
+
+#navbar-links {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    backdrop-filter: blur(0.5rem);
+    z-index: 1000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 2rem 4rem;
+    overflow-y: scroll;
+    display: none;
+
+    figure {
+        padding: 2rem;
+
+        img {
+            margin: 0 auto;
+            width: 20rem;
+        }
+    }
+
+    .close-side-menu {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+        font-size: 1.5rem;
+    }
+
+    ul {
+        margin-top: 1.4rem;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+        gap: 2rem;
+        padding-bottom: 2rem;
+
+        li {
+            position: relative;
+
+            &:hover .parent {
+                background: var(--web-theme-color);
+                filter: brightness(1.05);
+                color: #fff;
+            }
+
+            &#dropdown {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                .dropdown-content-wrapper {
+                    max-height: 0;
+                    overflow: hidden;
+                    transition: max-height 0.5s ease;
+
+                    &.show {
+                        max-height: 100rem;
+                    }
+
+                    ul {
+                        li {
+                            border-radius: 0.5rem;
+
+                            a {
+                                color: rgb(110, 110, 110);
+                                position: relative;
+
+                                &::before {
+                                    content: '•';
+                                    position: absolute;
+                                    left: 0.5rem;
+                                }
+
+                                &:hover {
+                                    color: #000;
+                                }
+                            }
+
+                            i {
+                                margin-right: 1rem;
+                                opacity: 0;
+                                transition: opacity 0.15s ease;
+                            }
+
+                            &:hover {
+                                background: rgba(0, 0, 0, 0.1);
+
+                                i {
+                                    opacity: 1;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            a {
+                display: flex;
+                width: 100%;
+                padding: 1rem 1.5rem;
+                border-radius: 0.5rem;
+                color: #000;
+                text-decoration: none;
+                transition: all ease 0.15s;
+
+                i {
+                    position: absolute;
+                    font-size: 2.5rem;
+                    right: 0.5rem;
+                    transition: all ease 0.5s;
+
+                    &.rotate {
+                        transform: rotate(180deg) translateY(0.5rem);
+                    }
+
+                    &:hover {
+                        font-size: 2.5rem;
+                    }
+                }
+            }
+        }
     }
 }

@@ -8,7 +8,7 @@ const NoPage = () => {
         <>
             <main className='no-page-main'>
                 <div id='no-page-content'>
-                    <h1>Well this is awkward…</h1>
+                    <h1>404! Well this is awkward…</h1>
                     <h3>The page you’re looking for doesn’t exist.</h3>
                     <Link to='/'>
                         <button>
