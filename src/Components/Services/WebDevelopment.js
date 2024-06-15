@@ -17,14 +17,6 @@ import javaIcon from './images-webdev/java_icon.svg';
 const WebDevelopment = () => {
     const sliderRef = useRef();
 
-    const next = () => {
-        sliderRef.current.slickNext();
-    };
-
-    const previous = () => {
-        sliderRef.current.slickPrev();
-    };
-
     const settings = {
         dots: true,
         infinite: true,

@@ -44,7 +44,7 @@ const App = () => {
           <Route path="/privacy-policy" element={<Policy />} />
 
           {/* Services routes */}
-          <Route path="/web-development" element={<WebDevelopment />} />
+          <Route path="/it-company-web/web-development" element={<WebDevelopment />} />
           <Route path="/mobile-app-development" element={<MobileAppDevelopment />} />
           <Route path="/ecommerce-development" element={<ECommerceDevelopment />} />
           <Route path="/software-development" element={<SoftwareDevelopment />} />

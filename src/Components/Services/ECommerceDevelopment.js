@@ -8,14 +8,6 @@ import Footer from '../Footer/Footer'
 const ECommerceDevelopment = () => {
     const sliderRef = useRef();
 
-    const next = () => {
-    sliderRef.current.slickNext();
-    };
-
-    const previous = () => {
-        sliderRef.current.slickPrev();
-    };
-
     const settings = {
         dots: true,
         infinite: true,
