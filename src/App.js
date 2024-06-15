@@ -37,7 +37,7 @@ import Career from './Components/Career/Career';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename='/it-company-web'>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />

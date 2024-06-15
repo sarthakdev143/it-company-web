@@ -2,7 +2,7 @@
   "name": "it-company-web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sarthakdev143.github.io/",
+  "homepage": "https://sarthakdev143.github.io/it-company-web/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
