@@ -69,7 +69,7 @@ const Footer = () => {
             <li className='relative'>Copyright © 2024 <a className='relative' href=''>Skyra Tech Solution Pvt Ltd.</a> All Rights Reserved</li>
             <li>|</li>
             <li className='relative'>
-              <a className='relative' href='/privacy-policy'>Privacy Policy</a>
+              <a className='relative' href='/it-company-web/privacy-policy'>Privacy Policy</a>
             </li>
           </ul>
           <a href='#'>
