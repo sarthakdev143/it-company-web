@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './Components/Home/Home';
+import AboutUs from './Components/AboutUs/AboutUs.js';
 import Layout from './Layout';
 import NoPage from './Components/NoPage/NoPage';
 import Policy from './Components/Policy/Policy';
@@ -43,7 +44,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          {/* <Route path="/about" element={<AboutUs />} /> */}
+          <Route path="/about" element={<AboutUs />} />
           <Route path="/privacy-policy" element={<Policy />} />
 
           {/* Services routes */}
