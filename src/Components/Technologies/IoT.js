@@ -7,7 +7,7 @@ const IoT = () => {
         <>
             <section className='section'>
                 <div className='header'>
-                    <h1>Skyra Tech Solutions Pvt Ltd.</h1>
+                    <h1>Internet Of Things (IoT)</h1>
                     <p>
                         Our IoT solutions connect physical devices to the internet, enabling real-time data collection, monitoring, and control. We develop smart systems that improve efficiency, productivity, and decision-making across various industries.
                     </p>

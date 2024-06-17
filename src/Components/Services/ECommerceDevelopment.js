@@ -104,7 +104,7 @@ const ECommerceDevelopment = () => {
         <>
             <section className="section">
                 <div className="header">
-                    <h1>Skyra Tech Solutions Pvt Ltd.</h1>
+                    <h1>E-Commerce Development</h1>
                     <p>
                         We provide comprehensive e-commerce development services to help you build a successful
                         online store. Our solutions are designed to enhance the shopping experience, improve customer

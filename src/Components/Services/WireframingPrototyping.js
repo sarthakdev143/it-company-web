@@ -81,7 +81,7 @@ const WireframingPrototyping = () => {
         <>
             <section className="section">
                 <div className="header">
-                    <h1>Skyra Tech Solutions Pvt Ltd.</h1>
+                    <h1>Wireframing & Prototyping</h1>
                     <p>
                         Our wireframing and prototyping services are designed to help you visualize and refine your
                         project before development begins. We create detailed wireframes and interactive prototypes that

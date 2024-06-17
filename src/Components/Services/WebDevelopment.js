@@ -92,7 +92,7 @@ const WebDevelopment = () => {
         <>
             <section className="section">
                 <div className="header">
-                    <h1>Skyra Tech Solutions Pvt Ltd.</h1>
+                    <h1>Web Development</h1>
                     <p>
                         At Skyra Tech Solutions Pvt Ltd, we specialize in creating stunning, responsive, and
                         user-friendly websites that not only look great but also perform exceptionally well. Our web

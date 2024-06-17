@@ -7,7 +7,7 @@ const CloudComputing = () => {
         <>
             <section className='section'>
                 <div className='header'>
-                    <h1>Skyra Tech Solutions Pvt Ltd.</h1>
+                    <h1>Cloud Computing</h1>
                     <p>
                         Our cloud computing services provide scalable, flexible, and cost-effective solutions for your IT infrastructure. We offer cloud migration, management, and optimization services to help you leverage the full potential of the cloud.
                     </p>

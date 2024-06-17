@@ -7,7 +7,7 @@ const OpenSource = () => {
     <>
       <section className='section'>
         <div className='header'>
-          <h1>Skyra Tech Solutions Pvt Ltd.</h1>
+          <h1>Open Source</h1>
           <p>Our commitment to open source development ensures that we deliver flexible, cost-effective, and innovative solutions. By leveraging the power of open source technologies, we provide robust and scalable applications that can be tailored to meet your specific business needs.</p>
         </div>
 

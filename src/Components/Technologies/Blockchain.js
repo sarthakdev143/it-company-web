@@ -7,7 +7,7 @@ const Blockchain = () => {
         <>
             <section className='section'>
                 <div className='header'>
-                    <h1>Skyra Tech Solutions Pvt Ltd.</h1>
+                    <h1>Blockchain</h1>
                     <p>
                         Our blockchain solutions offer secure, transparent, and decentralized systems for various applications. From financial services to supply chain management, we leverage blockchain technology to enhance trust, security, and efficiency.
                     </p>

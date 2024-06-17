@@ -7,7 +7,7 @@ const Enterprise = () => {
         <>
             <section className='section'>
                 <div className='header'>
-                    <h1>Skyra Tech Solutions Pvt Ltd.</h1>
+                    <h1>Enterprise</h1>
                     <p>
                         Our enterprise solutions are designed to meet the complex needs of large organizations. We offer scalable, secure, and efficient enterprise software that enhances operational efficiency, facilitates decision-making, and drives business growth.
                     </p>

@@ -13,18 +13,17 @@ import ECommerceDevelopment from './Components/Services/ECommerceDevelopment';
 import SoftwareDevelopment from './Components/Services/SoftwareDevelopment';
 import WireframingPrototyping from './Components/Services/WireframingPrototyping';
 
-// Commented-out verticals
-// import Healthcare from './Components/Verticals/Healthcare';
-// import Consumer from './Components/Verticals/Consumer';
-// import TravelTourism from './Components/Verticals/TravelTourism';
-// import Education from './Components/Verticals/Education';
-// import FoodRestaurant from './Components/Verticals/FoodRestaurant';
-// import Warehouse from './Components/Verticals/Warehouse';
-// import RealEstate from './Components/Verticals/RealEstate';
-// import BankingFinance from './Components/Verticals/BankingFinance';
-// import EnergyUtility from './Components/Verticals/EnergyUtility';
-// import Ecommerce from './Components/Verticals/Ecommerce';
-// import Manufacturing from './Components/Verticals/Manufacturing';
+import Healthcare from './Components/Verticals/Healthcare';
+import Consumer from './Components/Verticals/Consumer';
+import TravelTourism from './Components/Verticals/TravelTourism';
+import Education from './Components/Verticals/Education';
+import FoodRestaurant from './Components/Verticals/FoodRestaurant';
+import Warehouse from './Components/Verticals/Warehouse';
+import RealEstate from './Components/Verticals/RealEstate';
+import BankingFinance from './Components/Verticals/BankingFinance';
+import EnergyUtility from './Components/Verticals/EnergyUtility.js';
+import Ecommerce from './Components/Verticals/Ecommerce';
+import Manufacturing from './Components/Verticals/Manufacturing';
 
 import OpenSource from './Components/Technologies/OpenSource';
 import Enterprise from './Components/Technologies/Enterprise';
@@ -32,6 +31,7 @@ import RubyOnRails from './Components/Technologies/RubyOnRails';
 import IoT from './Components/Technologies/IoT';
 import Blockchain from './Components/Technologies/Blockchain';
 import CloudComputing from './Components/Technologies/CloudComputing';
+import Testing from './Components/Technologies/Testing';
 
 import Career from './Components/Career/Career';
 // import ContactUs from './Components/ContactUs/ContactUs';
@@ -43,6 +43,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
+          {/* <Route path="/about" element={<AboutUs />} /> */}
           <Route path="/privacy-policy" element={<Policy />} />
 
           {/* Services routes */}
@@ -53,7 +54,7 @@ const App = () => {
           <Route path="/wireframing-&-prototyping" element={<WireframingPrototyping />} />
 
           {/* Verticals routes */}
-          {/* <Route path="/healthcare" element={<Healthcare />} />
+          <Route path="/healthcare" element={<Healthcare />} />
           <Route path="/consumer" element={<Consumer />} />
           <Route path="/travel-&-tourism" element={<TravelTourism />} />
           <Route path="/education" element={<Education />} />
@@ -63,7 +64,7 @@ const App = () => {
           <Route path="/banking-&-finance" element={<BankingFinance />} />
           <Route path="/energy-&-utility" element={<EnergyUtility />} />
           <Route path="/ecommerce" element={<Ecommerce />} />
-          <Route path="/manufacturing" element={<Manufacturing />} /> */}
+          <Route path="/manufacturing" element={<Manufacturing />} />
 
           {/* Technologies routes */}
           <Route path="/open-source" element={<OpenSource />} />
@@ -72,6 +73,7 @@ const App = () => {
           <Route path="/iot" element={<IoT />} />
           <Route path="/blockchain" element={<Blockchain />} />
           <Route path="/cloud-computing" element={<CloudComputing />} />
+          <Route path="/testing" element={<Testing />} />
 
           {/* Other routes */}
           <Route path="/career" element={<Career />} />

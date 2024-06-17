@@ -92,7 +92,7 @@ const MobileDevelopment = () => {
     <>
       <section className="section">
         <div className="header">
-          <h1>Skyra Tech Solutions Pvt Ltd.</h1>
+          <h1>Mobile App Development</h1>
           <p>
             Our mobile app development services are designed to create innovative and user-friendly
             applications for both iOS and Android platforms. We leverage the latest technologies and best practices

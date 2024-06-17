@@ -105,7 +105,7 @@ const SoftwareDevelopment = () => {
         <>
             <section className="section">
                 <div className="header">
-                    <h1>Skyra Tech Solutions Pvt Ltd.</h1>
+                    <h1>Software Development</h1>
                     <p>
                         We offer comprehensive software development services tailored to meet the unique needs of each
                         client. Our solutions are designed to enhance your business operations, improve efficiency, and drive

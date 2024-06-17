@@ -7,7 +7,7 @@ const RubyOnRails = () => {
         <>
             <section className='section'>
                 <div className='header'>
-                    <h1>Skyra Tech Solutions Pvt Ltd.</h1>
+                    <h1>Ruby On Rails</h1>
                     <p>
                         Ruby on Rails (RoR) is a powerful web application framework that enables rapid development and clean, maintainable code. Our team specializes in creating scalable and high-performance web applications using RoR.
                     </p>

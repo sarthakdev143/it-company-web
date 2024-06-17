@@ -28,9 +28,11 @@ const Navbar = () => {
                 <header className='faic center1'>
                     <nav className='faic'>
                         <section className='faic'>
-                            <figure>
-                                <img src={require('./Skyra_Tech_logo.png')} alt='Logo' />
-                            </figure>
+                            <NavLink to='/'>
+                                <figure>
+                                    <img src={require('./Skyra_Tech_logo.png')} alt='Logo' />
+                                </figure>
+                            </NavLink>
                         </section>
                         <section className='faic'>
                             <ul className='faic gap' type='none'>
@@ -165,6 +167,11 @@ const Navbar = () => {
                                         <li className='faic'>
                                             <NavLink to='cloud-computing'>
                                                 Cloud Computing
+                                            </NavLink>
+                                        </li>
+                                        <li className='faic'>
+                                            <NavLink to='testing'>
+                                                Testing
                                             </NavLink>
                                         </li>
                                     </ul>
