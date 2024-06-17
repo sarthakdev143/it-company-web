@@ -5,6 +5,13 @@ import "slick-carousel/slick/slick-theme.css";
 import '../Navlinks.css';
 import Footer from '../Footer/Footer'
 
+import Sketch from './images/Sketch.svg';
+import Figma from './images/Figma.svg';
+import AdobeXD from './images/Adobe XD.svg';
+import Photoshop from './images/Adobe Photoshop.svg';
+import Illustrator from './images/Adobe Illustrator.svg';
+import AfterEffects from './images/After Effects.svg';
+
 const WireframingPrototyping = () => {
     const sliderRef = useRef();
 
@@ -36,46 +43,37 @@ const WireframingPrototyping = () => {
         ]
     };
 
+
     const technologies = [
         {
-            src: '',
-            name: '',
-            description: '',
+            src: Sketch,
+            name: 'Sketch',
+            description: ''
         },
         {
-            src: '',
-            name: '',
-            description: '',
+            src: Figma,
+            name: 'Figma',
+            description: ''
         },
         {
-            src: '',
-            name: '',
-            description: '',
+            src: AdobeXD,
+            name: 'Adobe XD',
+            description: ''
         },
         {
-            src: '',
-            name: '',
-            description: '',
+            src: Photoshop,
+            name: 'Adobe Photoshop',
+            description: ''
         },
         {
-            src: '',
-            name: '',
-            description: '',
+            src: Illustrator,
+            name: 'Adobe Illustrator',
+            description: ''
         },
         {
-            src: '',
-            name: '',
-            description: '',
-        },
-        {
-            src: '',
-            name: '',
-            description: '',
-        },
-        {
-            src: '',
-            name: '',
-            description: '',
+            src: AfterEffects,
+            name: 'Adobe After Effects',
+            description: ''
         },
     ];
 

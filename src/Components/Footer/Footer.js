@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css'
+import { NavLink } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -63,13 +64,16 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <div id='part-2' className='faic center1  '>
+      <div id='part-2' className='faic center1'>
         <div id='container' className='faic relative'>
           <ul type='none' className='faic'>
             <li className='relative'>Copyright © 2024 <a className='relative' href=''>Skyra Tech Solution Pvt Ltd.</a> All Rights Reserved</li>
             <li>|</li>
+            {/* Privacy Policy */}
             <li className='relative'>
-              <a className='relative' href='/it-company-web/privacy-policy'>Privacy Policy</a>
+              <NavLink to='/privacy-policy'>
+                Privacy Policy
+              </NavLink>
             </li>
           </ul>
           <a href='#'>

@@ -5,6 +5,17 @@ import "slick-carousel/slick/slick-theme.css";
 import '../Navlinks.css';
 import Footer from '../Footer/Footer'
 
+import Magento from './images/Magneto.svg';
+import WooCommerce from './images/WooCommerce.svg';
+import HTML5 from './images/HTML5.png';
+import CSS3 from './images/CSS3.svg';
+import JS from './images/JavaScript.svg';
+import PHP from './images/PHP.svg';
+import Laravel from './images/Laravel.svg';
+import NodeJS from './images/Node.js.svg';
+import MySQL from './images/MySQL.svg';
+import PostgreSQL from './images/PostgresSQL.svg';
+
 const ECommerceDevelopment = () => {
     const sliderRef = useRef();
 
@@ -38,43 +49,53 @@ const ECommerceDevelopment = () => {
 
     const technologies = [
         {
-            src: '',
-            name: '',
+            src: Magento,
+            name: 'Magento',
             description: '',
         },
         {
-            src: '',
-            name: '',
+            src: WooCommerce,
+            name: 'WooCommerce',
             description: '',
         },
         {
-            src: '',
-            name: '',
+            src: HTML5,
+            name: 'HTML5',
             description: '',
         },
         {
-            src: '',
-            name: '',
+            src: CSS3,
+            name: 'CSS3',
             description: '',
         },
         {
-            src: '',
-            name: '',
+            src: JS,
+            name: 'Javascript',
             description: '',
         },
         {
-            src: '',
-            name: '',
+            src: PHP,
+            name: 'PHP',
             description: '',
         },
         {
-            src: '',
-            name: '',
+            src: Laravel,
+            name: 'Laravel',
             description: '',
         },
         {
-            src: '',
-            name: '',
+            src: NodeJS,
+            name: 'NodeJS',
+            description: '',
+        },
+        {
+            src: MySQL,
+            name: 'MySQL',
+            description: '',
+        },
+        {
+            src: PostgreSQL,
+            name: 'PostgreSQL',
             description: '',
         },
     ];
@@ -107,7 +128,7 @@ const ECommerceDevelopment = () => {
                         {technologies.map((item, index) => (
                             <div className='card-wrapper'>
                                 <div key={index} className="tech-card">
-                                    <img src={item.src} alt={item.name} />
+                                    <img src={item.src} t={item.name} />
                                     <h3>{item.name}</h3>
                                     <p>{item.description}</p>
                                 </div>

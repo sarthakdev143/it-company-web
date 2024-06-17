@@ -5,6 +5,15 @@ import "slick-carousel/slick/slick-theme.css";
 import '../Navlinks.css';
 import Footer from '../Footer/Footer'
 
+import swift from './images/Swift.svg';
+import objective_c from './images/Objective-C.svg';
+import kotlin from './images/Kotlin.svg';
+import java from './images/Java.svg';
+import react_native from './images/React.svg';
+import flutter from './images/Flutter.svg';
+import firebase from './images/Firebase.svg';
+import SQLite from './images/SQLite.svg';
+
 const MobileDevelopment = () => {
   const sliderRef = useRef();
 
@@ -38,43 +47,43 @@ const MobileDevelopment = () => {
 
   const technologies = [
     {
-      src: '',
-      name: '',
+      src: swift,
+      name: 'Swift',
       description: '',
     },
     {
-      src: '',
-      name: '',
+      src: objective_c,
+      name: 'Objective-C (iOS)',
       description: '',
     },
     {
-      src: '',
-      name: '',
+      src: kotlin,
+      name: 'Kotlin',
       description: '',
     },
     {
-      src: '',
-      name: '',
+      src: java,
+      name: 'Java (Android)',
       description: '',
     },
     {
-      src: '',
-      name: '',
+      src: react_native,
+      name: 'React Native',
       description: '',
     },
     {
-      src: '',
-      name: '',
+      src: flutter,
+      name: 'Flutter',
       description: '',
     },
     {
-      src: '',
-      name: '',
+      src: firebase,
+      name: 'Firebase',
       description: '',
     },
     {
-      src: '',
-      name: '',
+      src: SQLite,
+      name: 'SQLite',
       description: '',
     },
   ];
@@ -108,7 +117,7 @@ const MobileDevelopment = () => {
             {technologies.map((item, index) => (
               <div className='card-wrapper'>
                 <div key={index} className="tech-card">
-                  <img src={item.src} alt={item.name} />
+                  <img src={item.src} t={item.name} />
                   <h3>{item.name}</h3>
                   <p>{item.description}</p>
                 </div>

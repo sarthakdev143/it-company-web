@@ -5,6 +5,18 @@ import "slick-carousel/slick/slick-theme.css";
 import '../Navlinks.css';
 import Footer from '../Footer/Footer'
 
+import Java from './images/Java.svg';
+import C_Sharp from './images/C_Sharp.svg';
+import Python from './images/Python.svg';
+import DotNet from './images/NET.svg';
+import Spring from './images/Spring.svg';
+import Django from './images/Django.svg';
+import MySQL from './images/MySQL.svg';
+import PostgreSQL from './images/PostgresSQL.svg';
+import MongoDB from './images/MongoDB.svg';
+import GraphQL from './images/GraphQL.svg';
+
+
 const SoftwareDevelopment = () => {
     const sliderRef = useRef();
 
@@ -38,45 +50,55 @@ const SoftwareDevelopment = () => {
 
     const technologies = [
         {
-            src: '',
-            name: '',
-            description: '',
+            src: Java,
+            name: 'Java',
+            description: ''
         },
         {
-            src: '',
-            name: '',
-            description: '',
+            src: C_Sharp,
+            name: 'C#',
+            description: ''
         },
         {
-            src: '',
-            name: '',
-            description: '',
+            src: Python,
+            name: 'Python',
+            description: ''
         },
         {
-            src: '',
-            name: '',
-            description: '',
+            src: DotNet,
+            name: '.NET',
+            description: ''
         },
         {
-            src: '',
-            name: '',
-            description: '',
+            src: Spring,
+            name: 'Spring',
+            description: ''
         },
         {
-            src: '',
-            name: '',
-            description: '',
+            src: Django,
+            name: 'Django',
+            description: ''
         },
         {
-            src: '',
-            name: '',
-            description: '',
+            src: MySQL,
+            name: 'MySQL',
+            description: ''
         },
         {
-            src: '',
-            name: '',
-            description: '',
+            src: PostgreSQL,
+            name: 'PostgreSQL',
+            description: ''
         },
+        {
+            src: MongoDB,
+            name: 'MongoDB',
+            description: ''
+        },
+        {
+            src: GraphQL,
+            name: 'GraphQL',
+            description: ''
+        }
     ];
 
     return (
@@ -107,7 +129,7 @@ const SoftwareDevelopment = () => {
                         {technologies.map((item, index) => (
                             <div className='card-wrapper'>
                                 <div key={index} className="tech-card">
-                                    <img src={item.src} alt={item.name} />
+                                    <img src={item.src} t={item.name} />
                                     <h3>{item.name}</h3>
                                     <p>{item.description}</p>
                                 </div>

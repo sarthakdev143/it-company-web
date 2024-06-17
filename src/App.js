@@ -4,6 +4,7 @@ import Home from './Components/Home/Home';
 import Layout from './Layout';
 import NoPage from './Components/NoPage/NoPage';
 import Policy from './Components/Policy/Policy';
+import ScrollToTop from './ScrollToTop';
 
 // Import the components for the main routes
 import WebDevelopment from './Components/Services/WebDevelopment';
@@ -38,6 +39,7 @@ import Career from './Components/Career/Career';
 const App = () => {
   return (
     <Router basename='/it-company-web'>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
@@ -48,7 +50,7 @@ const App = () => {
           <Route path="/mobile-app-development" element={<MobileAppDevelopment />} />
           <Route path="/ecommerce-development" element={<ECommerceDevelopment />} />
           <Route path="/software-development" element={<SoftwareDevelopment />} />
-          <Route path="/wireframing-prototyping" element={<WireframingPrototyping />} />
+          <Route path="/wireframing-&-prototyping" element={<WireframingPrototyping />} />
 
           {/* Verticals routes */}
           {/* <Route path="/healthcare" element={<Healthcare />} />

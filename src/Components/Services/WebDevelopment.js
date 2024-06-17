@@ -5,14 +5,14 @@ import "slick-carousel/slick/slick-theme.css";
 import '../Navlinks.css';
 import Footer from '../Footer/Footer';
 
-import pythonIcon from './images-webdev/python_icon.svg';
-import reactIcon from './images-webdev/reactjs.svg';
-import phpIcon from './images-webdev/php_icon.svg';
-import nodejsIcon from './images-webdev/nodejs.svg';
-import laravelIcon from './images-webdev/laravel.svg';
-import dotnetIcon from './images-webdev/microsoft-dotnet.svg';
-import angularIcon from './images-webdev/angularjs.svg';
-import javaIcon from './images-webdev/java_icon.svg';
+import pythonIcon from './images/Python.svg';
+import reactIcon from './images/React.svg';
+import phpIcon from './images/PHP.svg';
+import nodejsIcon from './images/Node.js.svg';
+import laravelIcon from './images/Laravel.svg';
+import dotnetIcon from './images/NET.svg';
+import angularIcon from './images/AngularJS.svg';
+import javaIcon from './images/Java.svg';
 
 const WebDevelopment = () => {
     const sliderRef = useRef();
