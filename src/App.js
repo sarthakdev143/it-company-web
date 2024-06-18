@@ -35,7 +35,7 @@ import CloudComputing from './Components/Technologies/CloudComputing';
 import Testing from './Components/Technologies/Testing';
 
 import Career from './Components/Career/Career';
-// import ContactUs from './Components/ContactUs/ContactUs';
+import ContactUs from './Components/ContactUs/ContactUs';
 
 const App = () => {
   return (
@@ -78,7 +78,7 @@ const App = () => {
 
           {/* Other routes */}
           <Route path="/career" element={<Career />} />
-          {/* <Route path="/contact-us" element={<ContactUs />} /> */}
+          <Route path="/contact-us" element={<ContactUs />} />
 
           <Route path="*" element={<NoPage />} />
         </Route>

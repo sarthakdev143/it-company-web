@@ -3,6 +3,10 @@ import './Footer.css'
 import { NavLink } from 'react-router-dom'
 
 const Footer = () => {
+  const BackToTop = () => {
+    document.body.scrollTo(0, 0);
+  }
+
   return (
     <section id='footer' className='fdc'>
       <div id='part-1' className='flex gap'>
@@ -76,7 +80,7 @@ const Footer = () => {
               </NavLink>
             </li>
           </ul>
-          <a href='#'>
+          <a href='#' onClick={BackToTop}>
             <span title='Back To Top' class="material-symbols-outlined">
               keyboard_arrow_up
             </span>
