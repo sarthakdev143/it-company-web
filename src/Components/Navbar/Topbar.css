@@ -45,7 +45,7 @@
 
             #get-free-esti {
                 color: var(--web-theme-color);
-                background: #eee;
+                background: #fff;
                 padding: 0.7rem 1.5rem;
                 border-radius: 10rem;
                 cursor: pointer;
@@ -63,7 +63,7 @@
                     background: var(--web-theme-color);
                     bottom: -5rem;
                     left: -10%;
-                    color: #eee;
+                    color: #fff;
                     width: 120%;
                     height: 130%;
                     border-radius: 50%;

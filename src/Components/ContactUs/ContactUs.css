@@ -1,0 +1,117 @@
+#contact-us-section {
+    padding-bottom: 7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+
+    #contact-us-header {
+        width: 100%;
+        height: 33rem;
+
+        figure {
+            width: 100%;
+            height: 100%;
+            position: relative;
+
+            &::after {
+                content: '';
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                background: rgba(0, 0, 0, 0.2);
+                backdrop-filter: blur(0.3rem);
+            }
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: center;
+            }
+
+            figcaption {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                z-index: 10;
+                color: #eee;
+                text-shadow: 0 0 1rem 1rem var(--web-theme-color);
+                font-size: 5rem;
+                font-weight: 600;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    #body {
+        padding: 0 2rem;
+        display: flex;
+        justify-content: space-around;
+
+        form {
+            min-width: 50rem;
+            padding: 2rem;
+            border: 1px solid #ccc;
+            border-radius: 0.5rem;
+            background-color: #f9f9f9;
+
+            .input-field {
+                margin-bottom: 1.5rem;
+                position: relative;
+
+                iframe {
+                    scale: 0.9;
+                    position: absolute;
+                    left: -1.2rem;
+                }
+
+                label {
+                    display: block;
+                    margin-bottom: 0.5rem;
+                    font-size: 1.2rem;
+                }
+
+                input,
+                textarea {
+                    width: 100%;
+                    padding: 0.75rem;
+                    font-size: 1rem;
+                    border: 1px solid #ccc;
+                    border-radius: 0.3rem;
+
+                    &:focus {
+                        border-color: var(--web-theme-color);
+                        outline: none;
+                    }
+                }
+
+                textarea {
+                    resize: vertical;
+                    height: 8rem;
+                }
+
+                button {
+                    width: 100%;
+                    padding: 1rem;
+                    font-size: 1.2rem;
+                    color: #fff;
+                    background-color: var(--web-theme-color);
+                    border: none;
+                    border-radius: 0.3rem;
+                    cursor: pointer;
+
+                    &:hover {
+                        filter: brightness(0.95);
+                    }
+                }
+            }
+        }
+    }
+}
