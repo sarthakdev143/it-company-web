@@ -30,7 +30,7 @@ const Navbar = () => {
                         <section className='faic'>
                             <NavLink to='/'>
                                 <figure>
-                                    <img src={require('./Skyra_Tech_logo.png')} alt='Logo' />
+                                    <img loading='lazy' src={require('./Skyra_Tech_logo.png')} alt='Logo' />
                                 </figure>
                             </NavLink>
                         </section>

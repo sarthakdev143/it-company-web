@@ -129,7 +129,7 @@ const SoftwareDevelopment = () => {
                         {technologies.map((item, index) => (
                             <div className='card-wrapper'>
                                 <div key={index} className="tech-card">
-                                    <img src={item.src} t={item.name} />
+                                    <img loading='lazy' src={item.src} t={item.name} />
                                     <h3>{item.name}</h3>
                                     <p>{item.description}</p>
                                 </div>

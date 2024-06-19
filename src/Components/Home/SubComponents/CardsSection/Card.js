@@ -3,7 +3,7 @@ import React from 'react';
 const Card = ({ image, number, title, children }) => (
     <div id='card' className='relative fdc'>
         <figure className='relative fdc'>
-            <img src={image} alt='Card Image' />
+            <img loading='lazy' src={image} alt='Card Image' />
             <figcaption className='fdc'>
                 <span className='relative'>{number}</span>
                 <h2>{title}</h2>

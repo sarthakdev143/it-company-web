@@ -12,7 +12,7 @@ const Home = () => {
             <main id='home-main'>
                 <div id='content' className='fdc faic'>
                     <div id="background">
-                        <video poster={require('./poster.jpg')} preload='none' loading='lazy' src={require('./bg.mp4')} autoPlay loop muted></video>
+                        <video loading='lazy' poster={require('./poster.jpg')} preload='none' loading='lazy' src={require('./bg.mp4')} autoPlay loop muted></video>
                         <div id='blur'></div>
                     </div>
                     <LandingContent />

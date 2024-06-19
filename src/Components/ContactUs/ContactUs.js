@@ -52,7 +52,7 @@ const ContactUs = () => {
             <section id='contact-us-section'>
                 <header id="contact-us-header">
                     <figure>
-                        <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHNvZnR3YXJlJTIwY29tcGFueXxlbnwwfDB8MHx8fDA%3D" alt="404! Cannot Load Contact Us Image!" />
+                        <img loading='lazy' src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHNvZnR3YXJlJTIwY29tcGFueXxlbnwwfDB8MHx8fDA%3D" alt="404! Cannot Load Contact Us Image!" />
                         <figcaption>Contact Us</figcaption>
                     </figure>
                 </header>

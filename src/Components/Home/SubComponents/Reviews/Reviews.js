@@ -91,7 +91,7 @@ const Reviews = () => {
                     <span className="material-symbols-outlined">star</span>
                 </span>
                 <p>Based On <b>5 Reviews</b></p>
-                <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/800px-Google_2015_logo.svg.png' alt='Google Image' />
+                <img loading='lazy' src='https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/800px-Google_2015_logo.svg.png' alt='Google Image' />
             </aside>
             <div id='carousel-wrapper' className='faic'>
                 <div className="navigation-button">
@@ -106,13 +106,13 @@ const Reviews = () => {
                         <div key={index} className={`review fdc ${expanded[index] ? 'expanded' : ''}`}>
                             <div className='review-head faic'>
                                 <div className='profile-details faic'>
-                                    <img className='profile-pic' src='https://images.unsplash.com/placeholder-avatars/extra-large.jpg?bg=fff&crop=faces&dpr=1&h=150&w=150&auto=format&fit=crop&q=60&ixlib=rb-4.0.3' alt='Profile Picture' />
+                                    <img loading='lazy' className='profile-pic' src='https://images.unsplash.com/placeholder-avatars/extra-large.jpg?bg=fff&crop=faces&dpr=1&h=150&w=150&auto=format&fit=crop&q=60&ixlib=rb-4.0.3' alt='Profile Picture' />
                                     <div className='fdc'>
                                         <h3>{review.name}</h3>
                                         <span>{review.date}</span>
                                     </div>
                                 </div>
-                                <img className='google-logo' src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/1200px-Google_%22G%22_logo.svg.png' alt='Google Logo' />
+                                <img loading='lazy' className='google-logo' src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/1200px-Google_%22G%22_logo.svg.png' alt='Google Logo' />
                             </div>
                             <div className='review-body fdc s-gap'>
                                 <span className='rating faic'>
