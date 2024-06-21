@@ -56,7 +56,14 @@
 
         h1 {
             display: flex;
-            gap: 1.2rem;
+
+            p:nth-child(1) {
+                margin-right: 1.2rem;
+            }
+            
+            p:nth-child(2) {
+                margin-left: 1.2rem;
+            }
 
             span {
                 color: var(--web-theme-color);
