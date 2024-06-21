@@ -54,8 +54,13 @@
         box-shadow: 0 0 3rem rgba(0, 0, 0, 0.25);
         justify-content: space-between;
 
-        h1 span {
-            color: var(--web-theme-color);
+        h1 {
+            display: flex;
+            gap: 1.2rem;
+
+            span {
+                color: var(--web-theme-color);
+            }
         }
 
         button {
@@ -94,5 +99,18 @@
         color: var(--web-theme-color);
         background: #fff;
         border: 0.1rem solid var(--web-theme-color);
+    }
+}
+
+@media (max-width: 1111px) {
+    #part-2 {
+        height: fit-content !important;
+        flex-direction: column;
+        padding: 3rem 5rem !important;
+        gap: 2rem;
+
+        button {
+            width: 20rem !important;
+        }
     }
 }

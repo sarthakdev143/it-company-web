@@ -12,7 +12,11 @@ const LandingContent = () => (
             </aside>
         </div>
         <div id='part-2' className='faic'>
-            <h1>looking for <TypedText strings={['REMOTE HANDS', 'IT CONSULTANCY', 'CLOUD SUPPORT', 'E-COMMERCE', 'WEB DEVELOPMENT']} /> CONSULTING?</h1>
+            <h1>
+                <p>looking for</p>
+                <TypedText strings={['REMOTE HANDS', 'IT CONSULTANCY', 'CLOUD SUPPORT', 'E-COMMERCE', 'WEB DEVELOPMENT']} />
+                <p>CONSULTING?</p>
+            </h1>
             <button>contact us today</button>
         </div>
     </section>

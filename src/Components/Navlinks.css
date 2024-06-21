@@ -130,3 +130,9 @@
     }
   }
 }
+
+@media (max-width: 1111px) {
+  .section {
+    padding: 5rem 2rem;
+  }  
+}

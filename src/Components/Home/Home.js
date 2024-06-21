@@ -12,7 +12,9 @@ const Home = () => {
             <main id='home-main'>
                 <div id='content' className='fdc faic'>
                     <div id="background">
-                        <video loading='lazy' poster={require('./poster.jpg')} preload='none' loading='lazy' src={require('./bg.mp4')} autoPlay loop muted></video>
+                        <img style={{ width: "100%" }} src={require("./poster.jpg")} alt="Background Image" />
+                        {/* Commented it As it Was Lagging Too Much On My Device*/}
+                        {/* <video loading='lazy' poster={require('./poster.jpg')} preload='none' src={require('./bg.mp4')} autoPlay loop muted></video> */}
                         <div id='blur'></div>
                     </div>
                     <LandingContent />
