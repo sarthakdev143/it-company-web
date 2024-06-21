@@ -187,11 +187,11 @@ const Navbar = () => {
                                     </NavLink>
                                 </li>
                             </ul>
+                        </section>
+                        <section className='faic m-gap'>
                             <ul type='none' className='faic s-gap'>
                                 <li id='get-free-esti'>Get Free Estimation</li>
                             </ul>
-                        </section>
-                        <section className='faic m-gap'>
                             <span class="menu-icon pointer material-symbols-outlined">
                                 menu
                             </span>
