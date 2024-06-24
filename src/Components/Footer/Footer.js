@@ -16,7 +16,7 @@ const Footer = () => {
               <img loading='lazy' id='logo' src={require('./SkyratechLight.png')} alt='Logo' />
             </figure>
             <p>
-              {/* Skyra Tech Solutions Pvt Ltd is a premier IT solutions provider, specializing in cutting-edge services like open source development, mobile app creation, and advanced technologies such as blockchain and IoT. Their seasoned professionals deliver high-quality, scalable solutions tailored to diverse client needs. With a focus on detail, rigorous quality assurance, and a dedication to customer satisfaction, Skyra ensures excellence in every project. Collaborate with them for innovative IT solutions that transform ideas into reality. */}
+              Skyra Tech Solutions Pvt Ltd excels in IT services like open source development, mobile app creation, blockchain, and IoT. They deliver tailored, high-quality solutions with a strong focus on detail and customer satisfaction.
             </p>
           </article>
           <article id='address' className='relative'>
