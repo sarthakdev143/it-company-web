@@ -196,7 +196,9 @@ const Navbar = () => {
                     </nav>
                 </header>
             </div>
-            <li type='none' id='get-free-esti' className='responsive'>Get Free Estimation</li>
+            <NavLink to='/get-free-estimation'>
+                <li type='none' id='get-free-esti' className='responsive'>Get Free Estimation</li>
+            </NavLink>
             <SideMenu isActive={isSideMenuActive} closeMenu={() => setIsSideMenuActive(false)} />
         </>
     )

@@ -141,9 +141,9 @@
     transform: translateX(-50%);
     overflow: hidden;
     z-index: 10000;
-    
+
     &.responsive {
-        display: none;
+        margin-bottom: -10%;
         bottom: 1rem;
         scale: 1.1;
         box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
@@ -195,17 +195,17 @@
         section:nth-child(2) {
             display: none;
         }
-
-        #get-free-esti {
-            display: block !important;
-        }
     }
 
-    #navbar-links {
-        display: block !important;
+    #get-free-esti.responsive {
+        margin-bottom: 0% !important;
     }
+}
 
-    #side-menu {
-        width: 100% !important;
-    }
+#navbar-links {
+    display: block !important;
+}
+
+#side-menu {
+    width: 100% !important;
 }

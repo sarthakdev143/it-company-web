@@ -36,6 +36,7 @@ import Testing from './Components/Technologies/Testing';
 
 import Career from './Components/Career/Career';
 import ContactUs from './Components/ContactUs/ContactUs';
+import GetFreeEsti from './Components/GetFreeEsti/GetFreeEsti';
 
 const App = () => {
   return (
@@ -79,6 +80,7 @@ const App = () => {
           {/* Other routes */}
           <Route path="/career" element={<Career />} />
           <Route path="/contact-us" element={<ContactUs />} />
+          <Route path="/get-free-estimation" element={<GetFreeEsti />} />
 
           <Route path="*" element={<NoPage />} />
         </Route>
