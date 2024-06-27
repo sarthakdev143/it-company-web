@@ -1,11 +1,57 @@
-import React from 'react';
+import React, { useState } from 'react';
+import ReCAPTCHA from 'react-google-recaptcha';
 import './GetFreeEsti.css';
 
 const GetFreeEsti = () => {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    phone: '',
+    subject: '',
+    message: '',
+  });
+
+  const [isRecaptchaVerified, setIsRecaptchaVerified] = useState(false);
+
+  const handleRecaptchaChange = (value) => {
+    // When reCAPTCHA is verified, value will be the token
+    setIsRecaptchaVerified(true);
+  };
+
+  const handleChange = (event) => {
+    const { name, value } = event.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+
+    if (isRecaptchaVerified) {
+      // Handle form submission logic here (e.g., send data to backend)
+      console.log('Form data:', formData);
+      // Reset form after submission if needed
+      setFormData({
+        name: '',
+        email: '',
+        phone: '',
+        subject: '',
+        message: '',
+      });
+      setIsRecaptchaVerified(false); // Reset reCAPTCHA verification status
+    } else {
+      alert('Please complete the reCAPTCHA.');
+    }
+  };
+
   return (
     <section id='get-free-estimation'>
-      <h2>Get Your Free Project Estimation</h2>
-      <p>Fill out the form below to receive a free project estimation. Our team will review your requirements and get back to you with a detailed quote.</p>
+      <div>
+        <h1>Get Your Free Project Estimation</h1>
+        <p>Fill out the form below to receive a free project estimation. Our team will review your requirements and get back to you with a detailed quote.</p>
+      </div>
       <form action="/submit-estimation" method="POST" enctype="multipart/form-data">
         <div className="input-field">
           <input type="text" id="name" name="name" placeholder="Name" required />
@@ -60,6 +106,7 @@ const GetFreeEsti = () => {
         </div>
 
         <div className="input-field">
+          <label for="files">Upload Any Relevant Files (optional) :</label>
           <input type="file" id="files" name="files" accept=".pdf, .doc, .docx, .png, .jpg" />
         </div>
 
@@ -67,9 +114,10 @@ const GetFreeEsti = () => {
           <textarea id="additional-info" name="additional-info" placeholder="Additional Information"></textarea>
         </div>
 
-        <div className="input-field">
-          <input type="text" id="captcha" name="captcha" placeholder="Captcha" required />
-        </div>
+        <ReCAPTCHA className="input-field"
+          sitekey="6LfzxfspAAAAAEO08tacH2l1XV15n97256krM9sY"
+          onChange={handleRecaptchaChange}
+        />
 
         <button type="submit">Get Free Estimation</button>
       </form>

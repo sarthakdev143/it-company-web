@@ -200,12 +200,13 @@
     #get-free-esti.responsive {
         margin-bottom: 0% !important;
     }
-}
 
-#navbar-links {
-    display: block !important;
-}
 
-#side-menu {
-    width: 100% !important;
+    #navbar-links {
+        display: block !important;
+    }
+
+    #side-menu {
+        width: 100% !important;
+    }
 }
