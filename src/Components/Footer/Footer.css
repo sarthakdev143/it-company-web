@@ -154,12 +154,10 @@
             /* background: red; */
 
             .part-1,
-            .part-2,
-            .part-3,
-            .part-4 {
+            .part-2 {
                 max-width: 30%;
-                /* min-width: 30%; */
-                    background: #eee;
+                min-width: 30%;
+                /* background: #eee; */
                 display: flex;
                 flex-direction: column;
                 gap: 1rem;

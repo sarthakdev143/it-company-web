@@ -51,9 +51,7 @@ const Footer = () => {
                 </a>
               </ul>
             </div>
-            <div className="part-2"></div>
-            <div className="part-3"></div>
-            <div className="part-4">
+            <div className="part-2">
               <h1 className='heading'>Contact Us</h1>
               <p>703 Vijay Nagar Indore, 452010 India</p>
               <div className="sub-ele">
