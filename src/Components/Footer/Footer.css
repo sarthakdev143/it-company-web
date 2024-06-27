@@ -257,7 +257,6 @@
                 height: 100%;
                 display: flex;
                 justify-content: space-between;
-                /* backgrouznd: red; */
 
                 .first {
                     display: flex;
@@ -322,11 +321,9 @@
             }
 
             .appear {
-                display: flex !important;
                 justify-content: space-between;
                 align-items: center;
-                /* display: none !important; */
-                visibility: hidden;
+                display: none;
             }
         }
     }
@@ -366,6 +363,6 @@
     }
 
     .appear {
-        visibility: visible !important;
+        display: flex !important;
     }
 }
