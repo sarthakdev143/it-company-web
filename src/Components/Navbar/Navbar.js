@@ -30,7 +30,7 @@ const Navbar = () => {
                         <section className='faic'>
                             <NavLink to='/'>
                                 <figure>
-                                    <img loading='lazy' src={require('./Skyra_Tech_logo.png')} alt='Logo' />
+                                    <img id='logo' loading='lazy' src={require('./Skyra_Tech_logo.png')} alt='Logo' />
                                 </figure>
                             </NavLink>
                         </section>
@@ -187,11 +187,8 @@ const Navbar = () => {
                                     </NavLink>
                                 </li>
                             </ul>
-                            <ul type='none' className='faic s-gap'>
-                                <li id='get-free-esti'>Get Free Estimation</li>
-                            </ul>
                         </section>
-                        <section className='faic m-gap'>
+                        <section className='faic'>
                             <span class="menu-icon pointer material-symbols-outlined">
                                 menu
                             </span>
@@ -199,6 +196,9 @@ const Navbar = () => {
                     </nav>
                 </header>
             </div>
+            <NavLink to='/get-free-estimation'>
+                <li type='none' id='get-free-esti' className='responsive'>Get Free Estimation</li>
+            </NavLink>
             <SideMenu isActive={isSideMenuActive} closeMenu={() => setIsSideMenuActive(false)} />
         </>
     )
