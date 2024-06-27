@@ -149,11 +149,15 @@
     }   
 }
 
-@media (max-width: 428px) {
+@media (max-width: 600px) {
     #reviews {
         width: 100%;
         display: flex;
         gap: 4rem;
         flex-direction: column;
     }   
+
+    #carousel-wrapper {
+        width: 97% !important;
+    }
 }

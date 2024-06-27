@@ -63,8 +63,8 @@ const Footer = () => {
               </div>
               <div className="sub-ele">
                 <i class="ri-phone-fill"></i>
-                  <h3>Phone Call :</h3>
-                  <a href='tel:+919981560424'>+91-9981560424</a>
+                <h3>Phone Call :</h3>
+                <a href='tel:+919981560424'>+91-9981560424</a>
               </div>
             </div>
           </div>
@@ -131,20 +131,33 @@ const Footer = () => {
       <div id='part-2' className='faic center1'>
         <div id='container' className='faic relative'>
           <ul type='none' className='faic'>
-            <li className='relative'>Copyright © 2024 <a className='relative' href=''>Skyra Tech Solution Pvt Ltd.</a> All Rights Reserved</li>
-            <li>|</li>
-            {/* Privacy Policy */}
+            <div className="first">
+              <li className='relative'>Copyright © 2024 <a className='relative' href=''>Skyra Tech Solution Pvt Ltd.</a> All Rights Reserved</li>
+              <li className='disappear'>|</li>
+              <li className='relative disappear'>
+                <NavLink to='/privacy-policy'>
+                  Privacy Policy
+                </NavLink>
+              </li>
+            </div>
+            <a id='back-to-top' className='disappear' href='#' onClick={BackToTop}>
+              <span title='Back To Top' class="material-symbols-outlined">
+                keyboard_arrow_up
+              </span>
+            </a>
+          </ul>
+          <ul type='none' className='appear'>
             <li className='relative'>
               <NavLink to='/privacy-policy'>
                 Privacy Policy
               </NavLink>
             </li>
+            <a id='back-to-top' href='#' onClick={BackToTop}>
+              <span title='Back To Top' class="material-symbols-outlined">
+                keyboard_arrow_up
+              </span>
+            </a>
           </ul>
-          <a href='#' onClick={BackToTop}>
-            <span title='Back To Top' class="material-symbols-outlined">
-              keyboard_arrow_up
-            </span>
-          </a>
         </div>
       </div>
     </section >
