@@ -37,6 +37,7 @@ import Testing from './Components/Technologies/Testing';
 import Career from './Components/Career/Career';
 import ContactUs from './Components/ContactUs/ContactUs';
 import GetFreeEsti from './Components/GetFreeEsti/GetFreeEsti';
+import ManagedServices from './Components/Services/ManagedServices.js';
 
 const App = () => {
   return (
@@ -54,6 +55,7 @@ const App = () => {
           <Route path="/ecommerce-development" element={<ECommerceDevelopment />} />
           <Route path="/software-development" element={<SoftwareDevelopment />} />
           <Route path="/wireframing-&-prototyping" element={<WireframingPrototyping />} />
+          <Route path="/managed-services" element={<ManagedServices />} />
 
           {/* Verticals routes */}
           <Route path="/healthcare" element={<Healthcare />} />

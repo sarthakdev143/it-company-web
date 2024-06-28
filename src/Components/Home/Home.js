@@ -5,6 +5,7 @@ import Reviews from './SubComponents/Reviews/Reviews';
 import Footer from '../Footer/Footer';
 import BusinessOpportunities from './SubComponents/BusinessOpportunities/BusinessOpportunities';
 import './Home.css';
+import DevelopmentProcess from './SubComponents/DevelopmentProcess/DevelopmentProcess';
 
 const Home = () => {
     return (
@@ -20,6 +21,7 @@ const Home = () => {
                     <LandingContent />
                     <BusinessOpportunities />
                     <CardsSection />
+                    <DevelopmentProcess />
                     <hr style={{ width: '100%', filter: 'brightness(1.3)' }} />
                     <Reviews />
                     <Footer />

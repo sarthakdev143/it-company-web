@@ -12,7 +12,6 @@ const Footer = () => {
     <section id='footer' className='fdc'>
       <div id='part-1' className='flex gap'>
         <footer>
-          <div className="right-tri"></div>
           <div className="main-container">
             <div className="part-1">
               <figure>
@@ -68,7 +67,6 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="left-tri"></div>
         </footer >
         {/* <div id='article-con'>
           <article id='about' className='fdc m-gap relative'>

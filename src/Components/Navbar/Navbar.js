@@ -74,6 +74,11 @@ const Navbar = () => {
                                                 Wireframing & Prototyping
                                             </NavLink>
                                         </li>
+                                        <li className='faic'>
+                                            <NavLink to='managed-services'>
+                                                Managed Services
+                                            </NavLink>
+                                        </li>
                                     </ul>
                                 </li>
                                 <li id='dropdown'>
