@@ -80,8 +80,7 @@
     }
 
     .slick-slider {
-      width: 95%;
-      padding: 0 1rem;
+      width: 100%;
       cursor: grab;
 
       &:active {
@@ -90,8 +89,10 @@
     }
 
     .slick-arrow {
+      /* background: green; */
+      position: absolute;
+      z-index: 10;
       transition: all ease 0.15s;
-      transform: translate(0, -2rem);
 
       &:hover {
         scale: 1.05;
@@ -100,6 +101,18 @@
       &::before {
         color: #000;
         font-size: 2.5rem;
+      }
+
+      &:nth-child(1) {
+        display: none;
+      }
+
+      &.slick-prev {
+        transform: translate(2rem, -2rem);
+      }
+
+      &.slick-next {
+        transform: translate(-2.8rem, -2rem);
       }
     }
 
