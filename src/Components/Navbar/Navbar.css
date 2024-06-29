@@ -114,6 +114,7 @@
                     transition: all ease 0.25s;
                     padding: 1rem;
                     border-radius: 50%;
+                    margin-left: 1rem;
 
                     &:hover {
                         background: var(--web-theme-color);
@@ -194,6 +195,10 @@
 
         section:nth-child(2) {
             display: none;
+        }
+
+        section:nth-child(3) .menu-icon{
+            margin-left: 0 !important;
         }
     }
 
